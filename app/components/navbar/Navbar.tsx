@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenuButton from "./MobileMenuButton";
 import MobileMenu from "./MobileMenu";
-import Logo from "./Logo";
+import Logo from "../Logo";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
